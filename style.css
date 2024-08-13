@@ -1,0 +1,118 @@
+ 
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    background-image:url("images/building/back.jpeg");
+}
+.form-container {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    padding: 30px;
+}
+.form-title {
+    color: #8b3828;
+    font-weight: 500;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-size: 23px;
+}
+.form-control, .form-select {
+    border-radius: 8px;
+}
+.form-label {
+    font-weight: 600;
+}
+.btn-submit {
+    background-color: #376632;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+.btn-submit:hover {
+    background-color: #003d82;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.icon-input {
+    position: relative;
+}
+.icon-input i {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #6c757d;
+}
+.icon-input input, .icon-input select {
+    padding-left: 35px;
+}
+ 
+
+.wrapper {
+    width: 400px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 60%;
+    left: 30%;
+  }
+  .containers {
+    width: 100%;
+    background-color: #f43543;
+    padding: 50px 40px;
+    box-shadow: 0 20px 65px rgba(87, 11, 16, 0.5);
+    position: relative;
+    border-radius: 8px;
+    text-align: center;
+  }
+  .containers:after {
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 120%;
+    background-color: #ffffff;
+    z-index: -1;
+    top: -10%;
+    left: 10%;
+  }
+  .containers p {
+    color: #fdd8d8;
+    line-height: 2;
+    font-size: 18px;
+  }
+  .containers h3 {
+    color: #ffffff;
+    margin: 20px 0 60px 0;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+  .containers button {
+    background-color: #ffffff;
+    border: none;
+    padding: 15px 45px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #f43543;
+    cursor: pointer;
+  }
+
+
+  .lati{
+    text-align: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100px;
+  }
+  
+  @media (max-width: 768px) {
+    .containers {
+        width: 80% !important;
+        
+    }
+}
+ 
